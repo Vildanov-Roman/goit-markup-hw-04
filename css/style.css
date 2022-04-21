@@ -23,6 +23,7 @@
     --color-border-icon: #AFB1B8;
     --color-icon: #AFB1B8;
     --bacground-color-icon: #F5F4FA;
+    --bacground-hover-icon: #2196F3;
     
 }
 
@@ -258,6 +259,8 @@ img {
 }
 
 
+
+
 .achivements-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -385,6 +388,7 @@ img {
 .team-soc-link {
     width: 44px;
     height: 44px;
+    background-color: var(--background-color);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -394,6 +398,15 @@ img {
 .team-soc-icon {
     fill: var(--color-icon);
 }
+
+.team-soc-link:hover {
+    background-color: var(--bacground-hover-icon);
+}
+
+.team-soc-link:hover .achivements-soc-icon {
+    fill: var(--txt-btn);
+}
+
 
  /*----------Clients------------*/
 
@@ -416,14 +429,31 @@ img {
 
 .client-list {
     display: flex;
+    justify-content: center;
 }
 
 .client-item {
     width: 170px;
     height: 92px;
-    border: 1px solid --color-border-icon;
+    background-color: var(--background-color);
+    border: 1px solid var(--color-border-icon);
     border-radius: 4px;
+    padding: 16px 32px;
 }
+
+.client-item + .client-item {
+    margin-left: 30px;
+}
+
+.client-icon {
+    fill: var(--color-icon);
+}
+
+.client-link:hover {
+    background-color: var(--bacground-hover-icon);
+}
+
+
 
 /*----------FOOTER------------*/
 
