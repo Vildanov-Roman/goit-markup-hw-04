@@ -403,7 +403,7 @@ img {
     background-color: var(--bacground-hover-icon);
 }
 
-.team-soc-link:hover .achivements-soc-icon {
+.team-soc-link:hover .team-soc-icon {
     fill: var(--txt-btn);
 }
 
@@ -435,21 +435,28 @@ img {
 .client-item {
     width: 170px;
     height: 92px;
-    background-color: var(--background-color);
     border: 1px solid var(--color-border-icon);
     border-radius: 4px;
-    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .client-item + .client-item {
     margin-left: 30px;
 }
 
+.client-icon-link {
+    padding: 16px 32px;
+}
+
+
 .client-icon {
     fill: var(--color-icon);
 }
 
-.client-link:hover {
+.client-icon:hover,
+.client-item:hover {
     background-color: var(--bacground-hover-icon);
 }
 
