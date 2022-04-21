@@ -21,6 +21,7 @@
     --color-border: #EEEEEE;
     --color-border-header: #ECECEC;
     --color-border-icon: #AFB1B8;
+    --color-icon: #AFB1B8;
     --bacground-color-icon: #F5F4FA;
     
 }
@@ -391,7 +392,7 @@ img {
 }
 
 .team-soc-icon {
-    fill: teal;
+    fill: var(--color-icon);
 }
 
  /*----------Clients------------*/
