@@ -20,8 +20,9 @@
     --footer-address-color: #FFFFFF;
     --color-border: #EEEEEE;
     --color-border-header: #ECECEC;
-
-
+    --color-border-icon: #AFB1B8;
+    --bacground-color-icon: #F5F4FA;
+    
 }
 
 
@@ -182,6 +183,14 @@ img {
     background-color: var(--background-hero);
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image:linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../img/hero-img-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -226,6 +235,27 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.achivements-icon-list {
+    display: flex;
+    justify-content: center;
+}
+
+.achivements-icon-item + .achivements-icon-item {
+    margin-left: 30px;
+}
+
+.achivement-icon-link {
+    width: 270px;
+    height: 120px;
+    background-color: var(--bacground-color-icon);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 
 .achivements-item:not(:last-child) {
     margin-right: 30px;
@@ -339,8 +369,30 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     text-align: center;
+    margin-bottom: 16px;
 }
 
+.team-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-soc-item + .team-soc-item {
+    margin-left: 10px;
+}
+
+.team-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-soc-icon {
+    fill: teal;
+}
 
  /*----------Clients------------*/
 
@@ -366,7 +418,10 @@ img {
 }
 
 .client-item {
-    
+    width: 170px;
+    height: 92px;
+    border: 1px solid --color-border-icon;
+    border-radius: 4px;
 }
 
 /*----------FOOTER------------*/
