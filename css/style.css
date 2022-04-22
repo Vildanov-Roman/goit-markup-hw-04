@@ -476,7 +476,7 @@ img {
 }
 
 .client-icon-link:hover .client-icon {
-    background-color: var(--bacground-hover-icon);
+    fill: var(--bacground-hover-icon);
 }
 
 
