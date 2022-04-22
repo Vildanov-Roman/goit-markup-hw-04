@@ -577,7 +577,11 @@ text-transform: uppercase;
     margin-left: 10px;
 }
 
-.footer-icon-link:hover {
+.footer-icon {
+    fill: var(--txt-btn);
+}
+
+.footer-icon-item:hover {
     background-color: var(--bacground-hover-icon);
 }
 
