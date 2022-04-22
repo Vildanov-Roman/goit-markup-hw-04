@@ -180,11 +180,12 @@ img {
 
 .contact-icon {
     margin-right: 10px;
-    fill: var(--color-icon);
+    fill: currentColor;
 }
 
-.contact-icon:hover {
-    fill: currentColor;
+.header-contact-link:hover,
+.header-contact-link:focus {
+    color: var(--main-btn-color);
 }
 
 
