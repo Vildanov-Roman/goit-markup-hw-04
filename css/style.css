@@ -573,8 +573,12 @@ text-transform: uppercase;
     align-items: center;
 }
 
+.footer-icon-item + .footer-icon-item {
+    margin-left: 10px;
+}
+
 .footer-icon-link:hover {
-    color: var(--bacground-hover-icon);
+    background-color: var(--bacground-hover-icon);
 }
 
 .footer-icon-link:hover .footer-icon {
