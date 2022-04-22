@@ -475,9 +475,11 @@ img {
     fill: var(--color-icon);
 }
 
-.client-icon:hover {
+.client-icon-link:hover .client-icon {
     background-color: var(--bacground-hover-icon);
 }
+
+
 
 
 
@@ -566,7 +568,6 @@ text-transform: uppercase;
     width: 44px;
     height: 44px;
     background: rgba(255, 255, 255, 0.1);
-    border: 1px solid tomato;
     border-radius: 50%;
     display: flex;
     justify-content: center;
