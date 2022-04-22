@@ -470,7 +470,7 @@ img {
     fill: var(--color-icon);
 }
 
-.client-icon-item:hover .client-icon {
+.client-item:hover .client-icon {
     fill: currentColor;
 }
 
