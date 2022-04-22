@@ -581,15 +581,6 @@ text-transform: uppercase;
     background-color: var(--bacground-hover-icon);
 }
 
-.footer-icon-link:hover .footer-icon {
-    fill: var(--txt-btn);
-}
-
-.footer-icon {
-    fill: var(--bacground-color-icon);
-    padding: 12px;
-}
-
 
 /*-----------PORTFOLIO----------------*/
 
