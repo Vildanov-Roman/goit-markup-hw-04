@@ -492,6 +492,7 @@ img {
 .footer-icon-list {
     display: flex;
     justify-content: center;
+
 }
 
 .footer-logo {
@@ -570,6 +571,10 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-icon {
+    fill: var(--bacground-color-icon);
 }
 
 
