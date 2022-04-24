@@ -251,15 +251,6 @@ img {
     padding-bottom: 94px;
 }
 
-.achivements-icon-list {
-    display: flex;
-    justify-content: center;
-}
-
-.achivements-icon-item + .achivements-icon-item {
-    margin-left: 30px;
-}
-
 .achivement-icon {
     width: 270px;
     height: 120px;
@@ -270,9 +261,6 @@ img {
     align-items: center;
     margin-bottom: 30px;
 }
-
-
-
 
 .achivements-item:not(:last-child) {
     margin-right: 30px;
