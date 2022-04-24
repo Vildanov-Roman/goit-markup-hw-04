@@ -613,10 +613,8 @@ img {
 .portfolio-list {
     display: flex;
     justify-content: center;
-}
+    margin-bottom: 50px;
 
-.portfolio-item {
-    padding-bottom: 50px;
 }
 
 .portfolio-item:not(:last-child) {
@@ -655,7 +653,6 @@ img {
 
 
 .description {
-    display: block;
     padding: 20px 24px;
     border-left: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
@@ -676,7 +673,8 @@ img {
     margin-bottom: 30px;
 }
 
-.projects-item:hover {
+.projects-item:hover,
+.projects-item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
